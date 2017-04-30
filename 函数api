@@ -1,0 +1,12 @@
+Unet:
+    create_conv_net     构建网络
+    class Unet:
+        __init__        类Unet初始化
+        _get_cost       构建损失函数
+        predict         预测
+        save            保存模型
+        restore         回复模型
+    class Trainer:
+        __init__        类trainer初始化
+        _get_optimizer  定义优化方式
+        _initialize     
